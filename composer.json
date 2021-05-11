@@ -11,10 +11,10 @@
         }
     ],
     "require": {
-        "bastinald/laravel-automatic-migrations": "@dev",
-        "bastinald/laravel-livewire-forms": "@dev",
-        "bastinald/laravel-livewire-modals": "@dev",
-        "bastinald/laravel-livewire-routes": "@dev",
+        "bastinald/laravel-automatic-migrations": "^1.0",
+        "bastinald/laravel-livewire-forms": "^1.0",
+        "bastinald/laravel-livewire-modals": "^1.0",
+        "bastinald/laravel-livewire-routes": "^1.0",
         "laravel/framework": "^8.0",
         "lukeraymonddowning/honey": "^0.3"
     },
