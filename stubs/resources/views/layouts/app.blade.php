@@ -13,7 +13,7 @@
 <body>
     <livewire:layouts.nav/>
 
-    <main class="container my-4">
+    <main class="container my-3">
         @yield('content')
     </main>
 
