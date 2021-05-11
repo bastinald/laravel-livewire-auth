@@ -1,0 +1,33 @@
+{
+    "name": "bastinald/laravel-livewire-auth",
+    "homepage": "https://github.com/bastinald/laravel-livewire-auth",
+    "description": "Laravel starter kit with Livewire & Bootstrap 5 auth scaffolding.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Dion",
+            "email": "bastinald@icloud.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "bastinald/laravel-automatic-migrations": "^1.0",
+        "bastinald/laravel-livewire-forms": "^1.0",
+        "bastinald/laravel-livewire-modals": "^1.0",
+        "bastinald/laravel-livewire-routes": "^1.0",
+        "laravel/framework": "^8.0",
+        "lukeraymonddowning/honey": "^0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bastinald\\LaravelLivewireAuth\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bastinald\\LaravelLivewireAuth\\Providers\\LaravelLivewireAuthProvider"
+            ]
+        }
+    }
+}
