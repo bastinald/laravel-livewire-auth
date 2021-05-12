@@ -11,3 +11,7 @@ $navbar-light-toggler-border-color: transparent;
 $navbar-toggler-focus-width: 0;
 $navbar-toggler-padding-x: 0;
 $table-hover-bg: #e9ecef;
+
+.table > :not(:last-child) > :last-child > * {
+    border-bottom-color: inherit !important;
+}
