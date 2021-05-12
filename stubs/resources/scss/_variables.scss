@@ -5,3 +5,8 @@ $border-radius-sm: $border-radius;
 $card-cap-bg: #ffffff;
 $card-cap-padding-y: 1rem;
 $input-group-addon-bg: #ffffff;
+$table-hover-bg: #e9ecef;
+
+.table > :not(:last-child) > :last-child > * {
+    border-bottom-color: inherit !important;
+}
