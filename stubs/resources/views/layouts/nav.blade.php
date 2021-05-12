@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-        <a href="{{ url('/') }}" class="navbar-brand">
-            {{ config('app.name') }}
+        <a href="{{ url('/') }}" class="d-flex align-items-center navbar-brand">
+            <x-fab-laravel height="24" class="text-primary me-1"/> {{ config('app.name') }}
         </a>
 
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-nav">

@@ -14,8 +14,7 @@ use Illuminate\Support\Facades\Route;
 class PasswordForgot extends FormComponent
 {
     public $title = 'Forgot Password';
-    public $layout = 'layouts.guest';
-    public $container = 'card';
+    public $layout = 'layouts.card';
     public $status;
 
     public function route()

@@ -4,10 +4,12 @@
     <div class="row justify-content-center">
         <div class="col-lg-4">
             <div class="card">
-                <div class="card-header">
+                <h5 class="card-header">
                     @yield('title')
+                </h5>
+                <div class="card-body">
+                    {{ $slot }}
                 </div>
-                {{ $slot }}
             </div>
         </div>
     </div>

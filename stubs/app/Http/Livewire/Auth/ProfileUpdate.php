@@ -11,7 +11,6 @@ use Illuminate\Validation\Rule;
 class ProfileUpdate extends FormComponent
 {
     public $title = 'Update Profile';
-    public $container = 'modal';
 
     public function mount()
     {

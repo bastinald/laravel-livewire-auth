@@ -20,8 +20,7 @@ class Register extends FormComponent
     use WithHoney;
 
     public $title = 'Register';
-    public $layout = 'layouts.guest';
-    public $container = 'card';
+    public $layout = 'layouts.card';
 
     public function route()
     {

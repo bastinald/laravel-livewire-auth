@@ -17,8 +17,7 @@ use Illuminate\Support\Str;
 class PasswordReset extends FormComponent
 {
     public $title = 'Reset Password';
-    public $layout = 'layouts.guest';
-    public $container = 'card';
+    public $layout = 'layouts.card';
 
     public function route()
     {

@@ -12,7 +12,6 @@ use Illuminate\Support\Facades\Hash;
 class PasswordChange extends FormComponent
 {
     public $title = 'Change Password';
-    public $container = 'modal';
 
     public function fields()
     {

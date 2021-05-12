@@ -17,8 +17,7 @@ use Illuminate\Support\Str;
 class Login extends FormComponent
 {
     public $title = 'Login';
-    public $layout = 'layouts.guest';
-    public $container = 'card';
+    public $layout = 'layouts.card';
 
     public function route()
     {
@@ -39,7 +38,7 @@ class Login extends FormComponent
     public function buttons()
     {
         return [
-            Button::make('Forgot your password?', 'link')->route('password.forgot'),
+            Button::make('Forgot password?', 'link')->route('password.forgot'),
             Button::make('Login')->click('login'),
         ];
     }
