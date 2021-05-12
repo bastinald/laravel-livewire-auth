@@ -28,16 +28,19 @@
                     @endif
                 </ul>
             @else
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a href="{{ route('home') }}"
                             class="nav-link {{ Request::routeIs('home') ? 'active' : '' }}">
                             {{ __('Home') }}
                         </a>
                     </li>
+                </ul>
+
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            {{ Auth::user()->name }}
+                        <a href="#" class="d-flex align-items-center nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <x-fas-user-circle height="16" class="me-1"/> {{ Auth::user()->name }}
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li>
