@@ -25,7 +25,7 @@ class PasswordChange extends FormComponent
     public function buttons()
     {
         return [
-            Button::make('Cancel', 'secondary')->click('$emit("hideModal")'),
+            Button::make('Cancel', 'secondary')->click("\$emit('hideModal')"),
             Button::make('Save')->click('save'),
         ];
     }
