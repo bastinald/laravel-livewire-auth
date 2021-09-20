@@ -37,3 +37,5 @@ php artisan make:auth
 ```
 
 This will create the Livewire components and install Bootstrap 5.
+### Note:
+this package require : php ^7.4|^8.0
